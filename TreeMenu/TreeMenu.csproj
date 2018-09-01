@@ -103,9 +103,15 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="SampleTableView.cs" />
     <Compile Include="SideMenuSample.cs" />
+    <Compile Include="TreeNode.cs" />
+    <Compile Include="FolderCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\folder1.png" />
+    <BundleResource Include="Resources\folder2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
